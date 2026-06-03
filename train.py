@@ -33,6 +33,6 @@ model.compile(
 model.fit(x_train, y_train, epochs=5, validation_data=(x_test, y_test))
 
 # Save model
-model.save("mnist_model.h5")
+model.save("mnist_model.keras")
 
 print("✅ Model saved successfully")

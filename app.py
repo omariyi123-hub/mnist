@@ -16,7 +16,7 @@ st.write("Upload a digit image (0–9)")
 # =========================
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("mnist_model.h5")
+    return tf.keras.models.load_model("mnist_model.keras")
 
 model = load_model()
 
